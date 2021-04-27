@@ -1,20 +1,13 @@
 package com.example.clareai;
 
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.util.Log;
-
 import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentManager;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
-
 import ai.clare.clarelib.Clare;
 import ai.clare.clarelib.ClareCallBack;
 import ai.clare.clarelib.LogoSetting;
@@ -26,18 +19,20 @@ import okhttp3.Response;
 
 public class ClareUtils {
 
-    static SharedPreferences sharedpreferences;
-    static String hktvmall_appID = "{appID of your clareWeb}";
-    static String hktvmall_appHost = "{appHost of your clareWeb}";
-    static String hktvmall_triggerId = "";
+//    static String sample_appID = "{appID of your clareWeb}";
+//    static String sample_appHost = "{appHost of your clareWeb}";
+
+    static String sample_appID = "59e88a5d6e45840048ea9844";
+    static String sample_appHost = "https://api-staging.clare.ai";
+
 
     static public void initCareSDK(Settings settings){
         Clare.init(MyApplication.getInstance(), settings, getCallback());
     }
 
     static  public void clareChatBotInit(Context context){
-        final Settings setting = new Settings(hktvmall_appID);
-        setting.host= hktvmall_appHost;
+        final Settings setting = new Settings(sample_appID);
+        setting.host= sample_appHost;
         setting.titles = new HashMap<>();
         //setting.titles.put("zh_CN","Clare 聊天机器人");
         setting.titles.put("zh_HK","Clare 聊天機械人");
@@ -60,11 +55,6 @@ public class ClareUtils {
         setting.allowUploadFile = true;
         setting.sendGreetingAgain = true;
         setting.autoStart = false;
-
-        if(hktvmall_triggerId.equals("") == false){
-            setting.properties = new HashMap<>();//[12]
-            setting.properties.put("triggerFlowId",hktvmall_triggerId);
-        }
 
         initCareSDK(setting);
 
@@ -96,8 +86,8 @@ public class ClareUtils {
         Clare.setStyleSettings(styleSettings);
 
         LogoSetting logoSetting = new LogoSetting();
-        logoSetting.defaultLogo = context.getApplicationContext().getResources().getDrawable(R.drawable.hktvmall_api);
-        logoSetting.apiLogo = context.getApplicationContext().getResources().getDrawable(R.drawable.hktvmall_api);
+        logoSetting.defaultLogo = context.getApplicationContext().getResources().getDrawable(R.drawable.avata_api);
+        logoSetting.apiLogo = context.getApplicationContext().getResources().getDrawable(R.drawable.avata_api);
         logoSetting.salesforceLogo = context.getApplicationContext().getResources().getDrawable(R.drawable.salesforce);
         logoSetting.livechatLogo = context.getApplicationContext().getResources().getDrawable(R.drawable.liveagent);
         Clare.setLogo(logoSetting);
