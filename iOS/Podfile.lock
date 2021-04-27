@@ -1,0 +1,49 @@
+PODS:
+  - Clare (3.2.29):
+    - CMPopTipView
+    - DGActivityIndicatorView
+    - pop (~> 1.0)
+    - SCSiriWaveformView
+    - SocketRocket
+  - CMPopTipView (2.3.2)
+  - DGActivityIndicatorView (2.1.1)
+  - pop (1.0.12)
+  - SCSiriWaveformView (1.1.1)
+  - SocketRocket (0.5.1)
+  - UIColor_Hex_Swift (5.1.0)
+
+DEPENDENCIES:
+  - Clare (from `https://github.com/ClareAI/clare_ios_v3`, tag `3.2.29`)
+  - UIColor_Hex_Swift
+
+SPEC REPOS:
+  trunk:
+    - CMPopTipView
+    - DGActivityIndicatorView
+    - pop
+    - SCSiriWaveformView
+    - SocketRocket
+    - UIColor_Hex_Swift
+
+EXTERNAL SOURCES:
+  Clare:
+    :git: https://github.com/ClareAI/clare_ios_v3
+    :tag: 3.2.29
+
+CHECKOUT OPTIONS:
+  Clare:
+    :git: https://github.com/ClareAI/clare_ios_v3
+    :tag: 3.2.29
+
+SPEC CHECKSUMS:
+  Clare: 41c23ea5deeb9bb12f450d9363d12a42fc033b29
+  CMPopTipView: 2d56ef53e8e739c4e63ad97a5a88b97712b46c7b
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  SCSiriWaveformView: 15b9dd6f94c7536e2032b34a35c6ff74d38c7411
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
+
+PODFILE CHECKSUM: 6949a9f53941270f40adf849acba9d2b7ef76a87
+
+COCOAPODS: 1.10.0

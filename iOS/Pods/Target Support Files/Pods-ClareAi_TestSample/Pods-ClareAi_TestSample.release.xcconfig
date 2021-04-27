@@ -1,0 +1,14 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CMPopTipView" "${PODS_CONFIGURATION_BUILD_DIR}/DGActivityIndicatorView" "${PODS_CONFIGURATION_BUILD_DIR}/SCSiriWaveformView" "${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket" "${PODS_CONFIGURATION_BUILD_DIR}/UIColor_Hex_Swift" "${PODS_CONFIGURATION_BUILD_DIR}/pop" "${PODS_ROOT}/Clare" $(PODS_ROOT)/Clare
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CMPopTipView/CMPopTipView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DGActivityIndicatorView/DGActivityIndicatorView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SCSiriWaveformView/SCSiriWaveformView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket/SocketRocket.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/pop/pop.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ObjC" -l"c++" -l"icucore" -l"stdc++" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CFNetwork" -framework "CMPopTipView" -framework "Clare" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "DGActivityIndicatorView" -framework "Foundation" -framework "Photos" -framework "QuartzCore" -framework "SCSiriWaveformView" -framework "Security" -framework "SocketRocket" -framework "Speech" -framework "SystemConfiguration" -framework "UIColor_Hex_Swift" -framework "UIKit" -framework "pop"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

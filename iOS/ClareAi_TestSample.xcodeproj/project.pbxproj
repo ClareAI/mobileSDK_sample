@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8744852524A1AE3000BC4242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744852424A1AE3000BC4242 /* AppDelegate.swift */; };
+		8744852724A1AE3000BC4242 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744852624A1AE3000BC4242 /* SceneDelegate.swift */; };
+		8744852924A1AE3000BC4242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744852824A1AE3000BC4242 /* ViewController.swift */; };
+		8744852C24A1AE3000BC4242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8744852A24A1AE3000BC4242 /* Main.storyboard */; };
+		8744853124A1AE3200BC4242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8744853024A1AE3200BC4242 /* Assets.xcassets */; };
+		8744853424A1AE3200BC4242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8744853224A1AE3200BC4242 /* LaunchScreen.storyboard */; };
+		878EB7C625EE7AE4008ABA4A /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EB7C525EE7AE4008ABA4A /* BorderedView.swift */; };
+		88020ACE55B47577D0FDCE84 /* Pods_ClareAi_TestSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A23DD4B045A7BF5F2690BA9 /* Pods_ClareAi_TestSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A480726CD6262A159AEF68E /* Pods-ClareAi_TestSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClareAi_TestSample.release.xcconfig"; path = "Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample.release.xcconfig"; sourceTree = "<group>"; };
+		8744852124A1AE3000BC4242 /* ClareAi_TestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClareAi_TestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8744852424A1AE3000BC4242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8744852624A1AE3000BC4242 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8744852824A1AE3000BC4242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8744852B24A1AE3000BC4242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8744853024A1AE3200BC4242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8744853324A1AE3200BC4242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8744853524A1AE3200BC4242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878EB7C525EE7AE4008ABA4A /* BorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		8A23DD4B045A7BF5F2690BA9 /* Pods_ClareAi_TestSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClareAi_TestSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFC8F6FEB50FD7C0B7A514D /* Pods-ClareAi_TestSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClareAi_TestSample.debug.xcconfig"; path = "Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8744851E24A1AE3000BC4242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88020ACE55B47577D0FDCE84 /* Pods_ClareAi_TestSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE0643739C95D9BED607697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCFC8F6FEB50FD7C0B7A514D /* Pods-ClareAi_TestSample.debug.xcconfig */,
+				3A480726CD6262A159AEF68E /* Pods-ClareAi_TestSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8744851824A1AE3000BC4242 = {
+			isa = PBXGroup;
+			children = (
+				8744852324A1AE3000BC4242 /* ClareAi_TestSample */,
+				8744852224A1AE3000BC4242 /* Products */,
+				2EE0643739C95D9BED607697 /* Pods */,
+				B6E777FAD7B010F886995A49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8744852224A1AE3000BC4242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8744852124A1AE3000BC4242 /* ClareAi_TestSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8744852324A1AE3000BC4242 /* ClareAi_TestSample */ = {
+			isa = PBXGroup;
+			children = (
+				878EB7C425EE7AD1008ABA4A /* ExternalLibs */,
+				8744852424A1AE3000BC4242 /* AppDelegate.swift */,
+				8744852624A1AE3000BC4242 /* SceneDelegate.swift */,
+				8744852824A1AE3000BC4242 /* ViewController.swift */,
+				8744852A24A1AE3000BC4242 /* Main.storyboard */,
+				8744853024A1AE3200BC4242 /* Assets.xcassets */,
+				8744853224A1AE3200BC4242 /* LaunchScreen.storyboard */,
+				8744853524A1AE3200BC4242 /* Info.plist */,
+			);
+			path = ClareAi_TestSample;
+			sourceTree = "<group>";
+		};
+		878EB7C425EE7AD1008ABA4A /* ExternalLibs */ = {
+			isa = PBXGroup;
+			children = (
+				878EB7C525EE7AE4008ABA4A /* BorderedView.swift */,
+			);
+			path = ExternalLibs;
+			sourceTree = "<group>";
+		};
+		B6E777FAD7B010F886995A49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A23DD4B045A7BF5F2690BA9 /* Pods_ClareAi_TestSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8744852024A1AE3000BC4242 /* ClareAi_TestSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8744853824A1AE3200BC4242 /* Build configuration list for PBXNativeTarget "ClareAi_TestSample" */;
+			buildPhases = (
+				8615B4921DF433E7BB8505E0 /* [CP] Check Pods Manifest.lock */,
+				8744851D24A1AE3000BC4242 /* Sources */,
+				8744851E24A1AE3000BC4242 /* Frameworks */,
+				8744851F24A1AE3000BC4242 /* Resources */,
+				80771BABA6ECC49DB26C37A3 /* [CP] Embed Pods Frameworks */,
+				EC2C67859D117DB763BBE11B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClareAi_TestSample;
+			productName = HKTVmallTest_Swift;
+			productReference = 8744852124A1AE3000BC4242 /* ClareAi_TestSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8744851924A1AE3000BC4242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Vernal Yu";
+				TargetAttributes = {
+					8744852024A1AE3000BC4242 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 8744851C24A1AE3000BC4242 /* Build configuration list for PBXProject "ClareAi_TestSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8744851824A1AE3000BC4242;
+			productRefGroup = 8744852224A1AE3000BC4242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8744852024A1AE3000BC4242 /* ClareAi_TestSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8744851F24A1AE3000BC4242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8744853424A1AE3200BC4242 /* LaunchScreen.storyboard in Resources */,
+				8744853124A1AE3200BC4242 /* Assets.xcassets in Resources */,
+				8744852C24A1AE3000BC4242 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80771BABA6ECC49DB26C37A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8615B4921DF433E7BB8505E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClareAi_TestSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2C67859D117DB763BBE11B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8744851D24A1AE3000BC4242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8744852924A1AE3000BC4242 /* ViewController.swift in Sources */,
+				8744852524A1AE3000BC4242 /* AppDelegate.swift in Sources */,
+				8744852724A1AE3000BC4242 /* SceneDelegate.swift in Sources */,
+				878EB7C625EE7AE4008ABA4A /* BorderedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8744852A24A1AE3000BC4242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8744852B24A1AE3000BC4242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8744853224A1AE3200BC4242 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8744853324A1AE3200BC4242 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8744853624A1AE3200BC4242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8744853724A1AE3200BC4242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8744853924A1AE3200BC4242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFC8F6FEB50FD7C0B7A514D /* Pods-ClareAi_TestSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_TEAM = N76LL238N4;
+				INFOPLIST_FILE = ClareAi_TestSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2.29;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingyu.test.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8744853A24A1AE3200BC4242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A480726CD6262A159AEF68E /* Pods-ClareAi_TestSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_TEAM = N76LL238N4;
+				INFOPLIST_FILE = ClareAi_TestSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2.29;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingyu.test.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8744851C24A1AE3000BC4242 /* Build configuration list for PBXProject "ClareAi_TestSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8744853624A1AE3200BC4242 /* Debug */,
+				8744853724A1AE3200BC4242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8744853824A1AE3200BC4242 /* Build configuration list for PBXNativeTarget "ClareAi_TestSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8744853924A1AE3200BC4242 /* Debug */,
+				8744853A24A1AE3200BC4242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8744851924A1AE3000BC4242 /* Project object */;
+}

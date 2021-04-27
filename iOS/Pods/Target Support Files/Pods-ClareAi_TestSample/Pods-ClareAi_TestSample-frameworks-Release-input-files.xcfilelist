@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-ClareAi_TestSample/Pods-ClareAi_TestSample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CMPopTipView/CMPopTipView.framework
+${BUILT_PRODUCTS_DIR}/DGActivityIndicatorView/DGActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/SCSiriWaveformView/SCSiriWaveformView.framework
+${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework
+${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework
+${BUILT_PRODUCTS_DIR}/pop/pop.framework

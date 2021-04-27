@@ -1,0 +1,6 @@
+framework module Clare {
+  umbrella header "Clare.h"
+
+  export *
+  module * { export * }
+}

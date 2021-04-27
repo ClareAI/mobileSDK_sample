@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+platform :ios, '10.0'
+
+target 'ClareAi_TestSample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ClareAi_TestSample
+  pod 'Clare', :git => 'https://github.com/ClareAI/clare_ios_v3', :tag => '3.2.29'
+  pod 'UIColor_Hex_Swift'
+end
