@@ -19,11 +19,8 @@ import okhttp3.Response;
 
 public class ClareUtils {
 
-//    static String sample_appID = "{appID of your clareWeb}";
-//    static String sample_appHost = "{appHost of your clareWeb}";
-
-    static String sample_appID = "59e88a5d6e45840048ea9844";
-    static String sample_appHost = "https://api-staging.clare.ai";
+    static String sample_appID = "{appID of your clareWeb}";
+    static String sample_appHost = "{appHost of your clareWeb}";
 
 
     static public void initCareSDK(Settings settings){
