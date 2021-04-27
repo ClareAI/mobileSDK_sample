@@ -1,0 +1,1 @@
+This is Clare.AI mobileSDK iOS project example
