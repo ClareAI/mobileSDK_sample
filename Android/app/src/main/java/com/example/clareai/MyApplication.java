@@ -32,7 +32,6 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
-        ClareUtils.sharedpreferences = getSharedPreferences("hktvmall", Context.MODE_PRIVATE);
 
         ClareUtils.clareChatBotInit(getApplicationContext());
         this.registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
