@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ClareAITestPro</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="show_without_the_icon">Show without the icon</string>
+    <string name="reset">Login</string>
+
+    <string name="clare_chatbot_disclaimer_zh"><![CDATA[<span>我啱啱出世架咋，好多嘢都仲學習緊，容許我邊學邊做啦;)</span>]]></string>
+    <string name="clare_chatbot_disclaimer_more_zh"><![CDATA[1. MallMall 查不會要求您提供個人資料，請勿在對話中透露任何個人資料。<br/>2. MallMall 查是全自動化服務，對一般查詢所提供的資料僅供參考。<br/>3. 對話内容將會被分析，用作提升MallMall 查準確度及質素，以及提供客户服務之用。]]></string>
+    <string name="clare_chatbot_disclaimer_en"><![CDATA[<span>Hi everyone, please welcome my new day of born. I am a newborn with lots to learn. Greatly appreciate your kind understanding.</span>]]></string>
+    <string name="clare_chatbot_disclaimer_more_en"><![CDATA[1. MallMall Chat will not request you to provide personal information. Please do not disclose any personal information during the conversation.<br/>2. MallMall Chat is an automated service, and information provided for general enquiries is for reference only.<br/>3. The conversation content will be analyzed and used to enhance MallMall Chat\'s accuracy and quality, as well as the purpose of providing customer services.]]></string>
+    <string name="title_activity_menu_page">MenuPageActivity</string>
+
+</resources>
