@@ -21,7 +21,15 @@ allprojects {
         google()
         jcenter()
         maven {
-            url 'https://dl.bintray.com/zkl/clare-android'
+            url "https://gitlab.com/api/v4/projects/25604373/packages/maven"
+            name "GitLab"
+            credentials(HttpHeaderCredentials) {
+                name = 'Private-Token'
+                value = "CDMTLYBwy875bbFPR-3M"
+            }
+            authentication {
+                header(HttpHeaderAuthentication)
+            }
         }
         maven { url 'https://jitpack.io' }
     }
