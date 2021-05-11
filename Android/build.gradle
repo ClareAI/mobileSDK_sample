@@ -25,7 +25,7 @@ allprojects {
             name "GitLab"
             credentials(HttpHeaderCredentials) {
                 name = 'Private-Token'
-                value = "CDMTLYBwy875bbFPR-3M"
+                value = "{private_token}"
             }
             authentication {
                 header(HttpHeaderAuthentication)
