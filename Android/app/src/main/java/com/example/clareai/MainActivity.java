@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Show the chat Bubble icon on the page.
-        ClareBubble.getInstance(this).show(MainActivity.this);
+        ClareBubble.getInstance(getApplicationContext()).show(MainActivity.this);
     }
 
     @Override

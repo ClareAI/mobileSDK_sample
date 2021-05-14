@@ -21,7 +21,7 @@ public class ClareUtils {
 
     static String sample_appID = "{appID of your clareWeb}";
     static String sample_appHost = "{appHost of your clareWeb}";
-
+    
 
     static public void initCareSDK(Settings settings){
         Clare.init(MyApplication.getInstance(), settings, getCallback());

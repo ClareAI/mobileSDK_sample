@@ -34,44 +34,7 @@ public class MyApplication extends Application {
         instance = this;
 
         ClareUtils.clareChatBotInit(getApplicationContext());
-        this.registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
-            @Override
-            public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
-                Log.i("app","onActivityStarted");
-            }
 
-            @Override
-            public void onActivityStarted(Activity activity) {
-                Log.i("app","onActivityStarted");
-            }
-
-            @Override
-            public void onActivityResumed(Activity activity) {
-                //Log.i("app","onActivityResumed");
-//                ClareBubble.getInstance(MyApplication.this).show(activity);
-            }
-
-            @Override
-            public void onActivityPaused(Activity activity) {
-                //ClareBubble.getInstance(App.this).remove();
-                Log.i("app","onActivityPaused");
-            }
-
-            @Override
-            public void onActivityStopped(Activity activity) {
-                Log.i("app","onActivityStopped");
-            }
-
-            @Override
-            public void onActivitySaveInstanceState(Activity activity, Bundle outState) {
-                Log.i("app","onActivitySaveInstanceState");
-            }
-
-            @Override
-            public void onActivityDestroyed(Activity activity) {
-                Log.i("app","onActivityDestroyed");
-            }
-        });
     }
 
     static MyApplication getInstance(){

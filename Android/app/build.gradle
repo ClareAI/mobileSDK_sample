@@ -31,7 +31,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.navigation:navigation-fragment:2.2.1'
     implementation 'androidx.navigation:navigation-ui:2.2.1'
-    implementation 'clare_sdk_android_v3:clarelib:3.4.3'
+    implementation 'com.github.vernalclareai:clareai_androidlib:3.3.0'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
