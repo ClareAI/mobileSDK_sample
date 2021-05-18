@@ -11,23 +11,12 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
-
-import java.io.IOException;
-import java.util.HashMap;
 
 import ai.clare.clarelib.Clare;
-import ai.clare.clarelib.ClareCallBack;
 import ai.clare.clarelib.ConversationCallback;
-import ai.clare.clarelib.Settings;
 import ai.clare.clarelib.ui.ClareBubble;
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.Response;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btnShowWithoutIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Clare.showWithoutWidget(MainActivity.this.getSupportFragmentManager());
+                Clare.showWithoutWidget(MainActivity.this.getFragmentManager());
             }
         });
 
