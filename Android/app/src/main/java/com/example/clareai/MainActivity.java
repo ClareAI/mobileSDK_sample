@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btnShowWithoutIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Clare.showWithoutWidget(MainActivity.this.getFragmentManager());
+                Clare.showWithoutWidget(MainActivity.this.getSupportFragmentManager());
             }
         });
 
