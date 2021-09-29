@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.Toast;
 
 import ai.clare.clarelib.Clare;
 import ai.clare.clarelib.ConversationCallback;
@@ -32,6 +33,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Clare.showWithoutWidget(MainActivity.this.getSupportFragmentManager());
+            }
+        });
+
+        final Button btnReset = (Button)findViewById(R.id.btn_reset);
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Clare.reSetClare();
+                Toast.makeText(MainActivity.this,"Reset",Toast.LENGTH_SHORT).show();
             }
         });
 

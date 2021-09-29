@@ -16,4 +16,13 @@
         android:layout_marginEnd="30sp"
         android:background="#FFFFFF"
         android:text="Show Chat without widget" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="150sp"
+        android:background="#FFFFFF"
+        android:text="Reset" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
